@@ -1,0 +1,12 @@
+let menuBtn = document.querySelectorAll('#menu-btn');
+let lower=document.querySelectorAll('.lower');
+let upper=document.querySelector('.upper');
+let card=document.querySelectorAll('.card')
+for(let i=0;i<lower.length;i++){
+        card[i].onclick =()=>{
+                lower[i].classList.toggle("active");
+                menuBtn[i].classList.toggle('fa-minus');
+                menuBtn[i].classList.toggle('fa-plus');
+                
+        }
+}

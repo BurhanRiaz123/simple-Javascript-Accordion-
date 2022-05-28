@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="container">
+    <h1>CHALLENGE FAQS</h1>
+    <div class="cards">
+        <div class="card" id="c1">
+            <div class="upper flex jc">
+                <h1>Can I use libraries/frameworks on these projects?</h1>
+                <i id="menu-btn" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lower">
+                    <p>Yes! Our challenges provide professional designs but there are no rules on what tools to use. So feel free to use anything you like to build your projects.</p>            
+            </div>
+        </div>
+        <div class="card" id="c2">
+            <div class="upper flex jc">
+                <h1>Can I use libraries/frameworks on </h1>
+                <i id="menu-btn" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lower">
+                <p>The best (and quickest) way to get help on a challenge is in our Slack community.There are thousands of other developers in there, so it's a great place to ask questions. We even have a dedicated “help” channel! If you haven't joined yet, you can get an invite to our Slack community here.</p>  
+            </div>
+        </div>
+        <div class="card" id="c3">
+            <div class="upper flex jc">
+                <h1>Can I use libraries/frameworks on these projects?</h1>
+                <i id="menu-btn" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lower">
+                        <p>3</p>        
+            </div>
+        </div>
+        <div class="card" id="c4">
+            <div class="upper flex jc">
+                <h1>Can I use libraries/frameworks on these projects?</h1>
+                <i id="menu-btn" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lower">
+                <p>4</p>
+            </div>
+        </div>
+        <div class="card" id="c5">
+            <div class="upper flex jc">
+                <h1>Can I use libraries/frameworks on these projects?</h1>
+                <i id="menu-btn" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lower">
+                <p>5</p>
+            </div>
+        </div>
+        <div class="card" id="c">
+            <div class="upper flex jc">
+                <h1>Can I use libraries/frameworks on these projects?</h1>
+                <i id="menu-btn" class="fa-solid fa-plus"></i>
+            </div>
+            <div class="lower">
+                
+           </div>
+        </div>
+    </div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
